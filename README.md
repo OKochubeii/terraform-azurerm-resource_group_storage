@@ -1,6 +1,10 @@
 # terraform-azurerm-resource_group_storage
+
 This repository is created for mate task 6
 
+# Usage
+
+```
 module "resource_group_storage" {
   source = "github.com/OKochubeii/terraform-azurerm-resource_group_storage"
 
@@ -8,3 +12,4 @@ module "resource_group_storage" {
   location              = "Poland Central"
   storage_account_name  = "storageaccountname"
 }
+```
